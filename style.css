@@ -2,13 +2,6 @@ body {
   background-color: lightgrey;
 }
 
-p {
-  width: 55%;
-  text-indent: 15px;
-  display: inline-block;
-  padding-right: 100px;
-  padding-left: 50px;
-}
 
 header {
   border: 3px solid orangered;
@@ -48,4 +41,13 @@ h2 {
 #questionsHeader{
   width: 100%;
   border: 3px solid orangered;
+}
+
+
+#myBio {
+  width: 35%;
+  text-indent: 15px;
+  padding-right: 100px;
+  padding-left: 15%;
+  display: inline-block;
 }
