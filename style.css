@@ -1,0 +1,51 @@
+body {
+  background-color: lightgrey;
+}
+
+p {
+  width: 55%;
+  text-indent: 15px;
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 50px;
+}
+
+header {
+  border: 3px solid orangered;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  color: orangered;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 40%;
+}
+
+ul li::before {
+  content: "\2022";
+  color: orangered;
+  display: inline-block;
+}
+
+
+img {
+  height: 275px;
+  width: 175px;
+  border-radius: 25px;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  color: orangered;
+}
+
+#questionsHeader{
+  width: 100%;
+  border: 3px solid orangered;
+}
