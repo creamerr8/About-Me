@@ -25,6 +25,17 @@ ul li::before {
   display: inline-block;
 }
 
+ol {
+  list-style-type: none;
+  padding-left: 40%;
+}
+
+ol li::before {
+  content: "\2022";
+  color: orangered;
+  display: inline-block;
+}
+
 
 img {
   height: 275px;
@@ -38,11 +49,20 @@ h2 {
   color: orangered;
 }
 
-#questionsHeader{
+#questionsHeader {
   width: 100%;
   border: 3px solid orangered;
 }
 
+#topTenHeader {
+  width: 100%;
+  border: 3px solid orangered;
+}
+
+#workHeader {
+  width: 100%;
+  border: 3px solid orangered;
+}
 
 #myBio {
   width: 35%;
