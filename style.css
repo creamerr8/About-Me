@@ -16,7 +16,7 @@ h1 {
 
 ul {
   list-style-type: none;
-  padding-left: 40%;
+  padding-left: 45%;
 }
 
 ul li::before {
@@ -27,7 +27,7 @@ ul li::before {
 
 ol {
   list-style-type: none;
-  padding-left: 40%;
+  padding-left: 45%;
 }
 
 ol li::before {
@@ -41,6 +41,7 @@ img {
   height: 275px;
   width: 175px;
   border-radius: 25px;
+  padding-top: 20px;
 }
 
 h2 {
